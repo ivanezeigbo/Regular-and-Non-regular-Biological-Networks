@@ -117,7 +117,7 @@ while stat <= limit:
         #print("These are the edges we have in the graph: \n", Edge)
         #print("Number of edges in the graph is", len(Edge))
         labels = {}
-        '''
+        
         for j in range(len(Network)):
             labels[j] = Network[j][1]
 
@@ -133,7 +133,6 @@ while stat <= limit:
         nx.draw(G, pos, node_color = colors)
         nx.draw_networkx_labels(G, pos,labels, font_size = 14)
         plt.show() #plots the network using Networkx Python Package. Uncommenting these four lines of code makes it possible to visually see and follow how a strategy emerges in the network
-        '''
 
 
 
@@ -231,7 +230,7 @@ while stat <= limit:
                 break
         if Same == True: #case for everyone having the same strategy
             #print('right up!')
-            #plotter()
+            plotter()
             if Network[z][1] == 'D':
                 #print('Everyone is a defector\n')
                 strategy.append('Defect')
