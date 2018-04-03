@@ -91,8 +91,7 @@ while stat <= limit:
         Edge = G.edges()
         #print("These are the edges we have in the graph: \n", Edge)
         #print("")
-        labels = {}
-        
+        labels = {} 
         for j in range(len(Network)):
             labels[j] = Network[j][1]
 
