@@ -8,4 +8,4 @@ Comment the plotter() function after the line "if Same == True #case for everyon
 
 To view graph, first install networkx.
 
-> pip install networks
+> pip install networkx
