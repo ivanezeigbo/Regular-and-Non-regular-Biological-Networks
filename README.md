@@ -9,3 +9,5 @@ Comment the plotter() function after the line "if Same == True #case for everyon
 To view graph, first install networkx.
 
 > pip install networkx
+
+<img src="https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41598-017-17481-0/MediaObjects/41598_2017_17481_Fig1_HTML.jpg"/>
