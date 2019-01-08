@@ -1,5 +1,5 @@
 # Regular-and-Non-regular-Biological-Networks
-Research on evolution in regular networks as opposed to non-regular networks
+Computer Simulation and Modeling: Research on evolution in regular networks as opposed to non-regular networks
 
 Number 1 and 2 are non-regular networks
 Number 3 and 4 are regular networks
