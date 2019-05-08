@@ -120,7 +120,7 @@ while stat <= limit:
         
         for j in range(len(Network)):
             labels[j] = Network[j][1]
-
+        '''
         pos = nx.spring_layout(G)
         colors = []
         for n in players:
@@ -133,7 +133,7 @@ while stat <= limit:
         nx.draw(G, pos, node_color = colors)
         nx.draw_networkx_labels(G, pos,labels, font_size = 14)
         plt.show() #plots the network using Networkx Python Package. Uncommenting these four lines of code makes it possible to visually see and follow how a strategy emerges in the network
-
+        '''
 
 
         #payoffs
@@ -230,7 +230,7 @@ while stat <= limit:
                 break
         if Same == True: #case for everyone having the same strategy
             #print('right up!')
-            plotter()
+            #plotter() #Uncomment to view plots
             if Network[z][1] == 'D':
                 #print('Everyone is a defector\n')
                 strategy.append('Defect')
