@@ -270,7 +270,7 @@ while stat <= limit:
     #print('\nIt took %s games' %count)
 
     stat += 1
-print('Cope:', c_1, ' Defe:', d_1)
+#print('Cope:', c_1, ' Defe:', d_1)
 coding = Counter(strategy)
 if 'Cooperate' not in coding:
     coding['Cooperate'] = 0
