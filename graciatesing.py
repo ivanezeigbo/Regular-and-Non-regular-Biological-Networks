@@ -18,7 +18,7 @@ d_1 = 0 #number of games where players defected more than cooperated
 while stat <= limit:
  
     Network = {} #dictionary of networks
-    total_num = 81
+    total_num = 36
     cooperate = sample(range(1, total_num + 1), int(total_num/2))
     players = [] #nodes
     for i in range(total_num):
