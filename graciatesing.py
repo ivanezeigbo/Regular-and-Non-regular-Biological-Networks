@@ -97,7 +97,7 @@ while stat <= limit:
         while not Connect: #makes sure graph is connected
             G = nx.Graph()   
             G.add_nodes_from(players)
-            path = random_layering() #function that calls for diversity in every round of a game. Commenting this line of code removes diversity in the rounds of the game
+            #path = random_layering() #function that calls for diversity in every round of a game. Commenting this line of code removes diversity in the rounds of the game
             G.add_edges_from(path)
             if nx.is_connected(G): #makes sure graph is a connected graph
                 Connect = True
@@ -113,7 +113,7 @@ while stat <= limit:
         
         for j in range(len(Network)):
             labels[j] = Network[j][1]
-    
+        '''
         pos = nx.spring_layout(G)
         colors = []
         for n in players:
@@ -124,7 +124,7 @@ while stat <= limit:
         nx.draw(G, pos, node_color = colors)
         nx.draw_networkx_labels(G, pos,labels, font_size = 14)
         plt.show() #plots the network using Networkx Python Package. Uncommenting these four lines of code makes it possible to visually see and follow how a strategy emerges in the network
-    
+        '''
         
 
         #payoffs
@@ -201,7 +201,7 @@ while stat <= limit:
                 break
         if Same == True: #case for everyone having the same strategy
             #print('right up!')
-            plotter()
+            #plotter() #Uncomment to view plots
             
             if Network[z][1] == 'D':
                 #print('Everyone is a defector\n')
