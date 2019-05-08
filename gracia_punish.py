@@ -104,7 +104,7 @@ while stat <= limit:
         while not Connect: #makes sure graph is connected
             G = nx.Graph()   
             G.add_nodes_from(players)
-            path = random_layering() #function that calls for diversity in every round of a game. Commenting this line of code removes diversity in the rounds of the game
+            #path = random_layering() #function that calls for diversity in every round of a game. Commenting this line of code removes diversity in the rounds of the game
             G.add_edges_from(path)
             if nx.is_connected(G): #makes sure graph is a connected graph
                 Connect = True
