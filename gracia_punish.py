@@ -18,7 +18,7 @@ d_1 = 0 #number of games where players defected more than cooperated
 while stat <= limit:
  
     Network = {} #dictionary of networks
-    total_num = 81
+    total_num = 36 #this is N or the number of agents
     fract = sample(range(1, total_num + 1), int((2*total_num)/3))
     cooperate = sample(fract, int(len(fract)/2))
     players = [] #nodes
