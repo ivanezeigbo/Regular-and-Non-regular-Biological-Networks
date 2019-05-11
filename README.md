@@ -28,6 +28,6 @@ To view graph, first install networkx.<br>
 
 # Average Payoff Against N (from 64 to 256)
 
-## Why did punishment evolve in a biological network? Outcome of experiment (treatment = presence of punishers):<br>
+## Why did punishment evolve? Outcome of experiment (treatment = presence of punishers):<br>
 
 <img src="https://github.com/ivanezeigbo/Regular-and-Non-regular-Biological-Networks/blob/master/netprisoners.png"/>
