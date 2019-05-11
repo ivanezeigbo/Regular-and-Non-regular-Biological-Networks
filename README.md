@@ -18,7 +18,7 @@ To view graph, first install networkx.
 
 #File Structure
 
-garcia_punish = Regular network with Punishers.
+garcia_punish = Regular network with Punishers.\n
 garcia_testing = Regular network without Punishers.
 coop_with_pun = Non-regular network with Punishers.
 coop_without_pun = Non-regular network without Punishers.
