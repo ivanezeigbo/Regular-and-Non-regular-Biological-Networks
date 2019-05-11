@@ -14,3 +14,11 @@ To view graph, first install networkx.
 
 
 <img src="https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41598-017-17481-0/MediaObjects/41598_2017_17481_Fig1_HTML.jpg"/>
+
+
+#File Structure
+
+garcia_punish = Regular network with Punishers
+garcia_testing = Regular network without Punishers
+coop_with_pun = Non-regular network with Punishers
+coop_without_pun = Non-regular network without Punishers
