@@ -10,13 +10,13 @@ To view graph, first install networkx.<br>
 
 > pip install networkx
 
-#Design of biological interaction
+##Design of biological interaction
 
 
 <img src="https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41598-017-17481-0/MediaObjects/41598_2017_17481_Fig1_HTML.jpg"/>
 
 
-#File Structure
+##File Structure
 
 garcia_punish = Regular network with Punishers <br>
 garcia_testing = Regular network without Punishers <br>
