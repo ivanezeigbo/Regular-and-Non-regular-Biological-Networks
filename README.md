@@ -23,3 +23,7 @@ To view graph, first install networkx.<br>
 
 
 <img src="https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41598-017-17481-0/MediaObjects/41598_2017_17481_Fig1_HTML.jpg"/>
+
+
+#Average Payoff Against N (from 64 to 256)
+<img src="https://github.com/ivanezeigbo/Regular-and-Non-regular-Biological-Networks/blob/master/netprisoners.png"/>
